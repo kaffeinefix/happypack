@@ -1,0 +1,156 @@
+@charset "utf-8";
+/* CSS Document */
+/* font-family: 'Della Respira', serif;
+font-family: 'Purple Purse', cursive; */
+body {
+	background-image:happypack_site/images/cloud_bg.gif);
+	/*-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;*/
+	background-color: #006837;
+	background-repeat: repeat-x;
+	background-position: left top;
+	background-image: url(file:///C|/Documents%20and%20Settings/Abe%20Vigoda/Desktop/happypack_site/images/cloud_bg.gif);
+}
+.container {
+	background-repeat: repeat;
+	background-position: left top;
+	height: 680px;
+	width: 960px;
+	/* [disabled]border: thin solid #300; */
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding: 10px;
+}
+.header {
+	width: 940px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.container .header img {
+	margin-top: 2px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 30px;
+	float: left;
+	z-index: 1;
+	position: absolute;
+}
+.container .header h1 {
+	font-family:'Purple Purse', Georgia, "Times New Roman", Times, cursive;
+	color: #FFD602;
+	text-shadow: 3px 3px 8px #000000;
+	font-size: 60px;
+	margin-left: 270px;
+	font-weight: lighter;
+	position: relative;
+	margin-top: 130px;
+}
+.container .header h2 {
+	font-family:'Purple Purse', Georgia, "Times New Roman", Times, cursive;
+	color: #FFD602;
+	text-shadow: 3px 3px 8px #000000;
+	font-size: 30px;
+	margin-left: 270px;
+	font-style: normal;
+	line-height: 10px;
+}
+.container #collage img {
+	float: right;
+	z-index: 2;
+	position: relative;
+	margin-right: 10px;
+}
+.container #mainContent {
+	font-family: Verdana, Geneva, sans-serif;
+	color: #333;
+	background-color: #FFEA01;
+	height: 640px;
+	width: 925px;
+	margin-top: -30px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	/* [disabled]box-shadow: 3px 3px 5px #888; */
+	float: left;
+	background-image: url(file:///C|/Documents%20and%20Settings/Abe%20Vigoda/Desktop/happypack_site/images/container_bg.jpg);
+	background-repeat: repeat-x;
+	background-position: center top;
+	margin-bottom: 10px;
+	padding-top: 35px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+}
+.container #mainContent #contact {
+	background-color: #CCC;
+	float: right;
+	height: 140px;
+	width: 260px;
+	margin-top: 30px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	clear: right;
+	margin-left: 8px;
+	margin-bottom: 5px;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	line-height: 5px;
+	box-shadow: 3px 3px 8px #333;
+	-moz-box-shadow: 3px 3px 8px #333;
+	-webkit-box-shadow: 3px 3px 8px #333;
+	border: thin solid #333;
+}
+
+.footer {
+	text-align: center;
+	height: 40px;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-width: thin;
+	border-top-style: solid;
+	border-top-color: #FFF;
+	margin-top: 1px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	padding: 2px;
+	float: left;
+	clear: none;
+}
+p {
+	font-family:'Della Respira', Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: lighter;
+	line-height: normal;
+	color: #333333;
+}
+.container #mainContent #contact p a {
+	text-decoration: none;
+	color: #333;
+}
+.container #mainContent #contact p a:active {
+	text-decoration:none;
+	color: #333;
+}
+.container #mainContent #contact p a:hover {
+	text-decoration:none;
+	color: #FFFFFF;
+	margin: -2px;
+}
+h2 {
+	font-family:'Purple Purse', Georgia, "Times New Roman", Times, cursive;
+	color: #006837;
+	font-size: 24px;
+	line-height: normal;
+	font-weight: bold;
+}
